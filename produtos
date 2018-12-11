@@ -1,0 +1,19 @@
+namespace ConsoleApp2
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int numero1, numero2, prod;
+            Console.WriteLine("Primeiro valor:");
+            numero1 = int.Parse(Console.ReadLine());
+            Console.WriteLine("segundo valor:");
+            numero2 = int.Parse(Console.ReadLine());
+            prod = numero1 * numero2;
+            Console.WriteLine("PROD = " + prod);
+            Console.ReadLine();
+            
+        }
+
+    }
+}
