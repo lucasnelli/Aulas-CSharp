@@ -1,0 +1,19 @@
+namespace ConsoleApp2
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+  
+            string nome;
+            int idade;
+            Console.WriteLine("Qual é o seu nome?");
+            nome = Console.ReadLine();
+            Console.WriteLine("Agora quantos anos você tem?");
+            idade = int.Parse(Console.ReadLine());
+            Console.WriteLine("Ah {0} então você tem {1} anos!", nome, idade);
+            Console.ReadLine();
+            
+        }
+    }
+}
