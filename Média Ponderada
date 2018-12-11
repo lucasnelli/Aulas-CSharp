@@ -1,0 +1,30 @@
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            double peso1, peso2, peso3, nota1, nota2, nota3, pesofinal, media;
+
+            Console.WriteLine("Nota A:");
+            nota1 = double.Parse(Console.ReadLine());
+
+            Console.WriteLine("Nota B:");
+            nota2 = double.Parse(Console.ReadLine());
+
+            Console.WriteLine("Nota C:");
+            nota3 = double.Parse(Console.ReadLine());
+
+            peso1 = 2;
+            peso2 = 3;
+            peso3 = 5;
+
+            pesofinal = peso1 + peso2 + peso3;
+
+            media = (nota1 * peso1 + nota2 * peso2 + nota3 * peso3) / pesofinal;
+
+            Console.WriteLine("MEDIA = " + media);
+
+            Console.ReadLine();
+        }
+    }
+}
