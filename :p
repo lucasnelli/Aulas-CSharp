@@ -7,7 +7,7 @@ namespace ConsoleApp2
   
             string nome;
             int idade;
-            Console.WriteLine("Qual é o seu nome?");
+            Console.WriteLine("Qual é o seu nome?"); //fucking follow @cheirodechuva1!!
             nome = Console.ReadLine();
             Console.WriteLine("Agora quantos anos você tem?");
             idade = int.Parse(Console.ReadLine());
